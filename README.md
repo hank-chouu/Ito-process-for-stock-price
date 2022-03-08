@@ -48,3 +48,5 @@ Above explaination give us the tool to simulate changes in stock price.
 By randomly generating ε, we can get the **random walk** of the stock price.
 
 ![img](https://github.com/hank-chouu/Ito-process-for-stock-price/blob/main/Rplot01.png?raw=true)
+
+In this example, the initial price = $100, mean rate = 0.3, volatility = 0.15
