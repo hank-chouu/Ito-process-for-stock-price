@@ -16,7 +16,7 @@ A variable Z follows a Wiener process if
 This will give us:
 
 1. Mean of [Z(T)-Z(0)]=0 (main trend in change of stock price unchanged)
-2. s.d. of [Z(T)-Z(0)]=1* T(s.d. and variation in change of stock price increase as time increase)
+2. S.D. of [Z(T)-Z(0)]=1* T(s.d. and variation in change of stock price increase as time increase)
 
 ### General Wiener Process
 
@@ -27,9 +27,18 @@ As for a General Wiener process, mean rate and variation rate can be set to any 
 This shall give us:
 
 1. Mean of Δx=a* Δt
-2. s.d. of Δx=b* (Δt)^0.5
+2. S.D. of Δx=b* (Δt)^0.5
 
 E.g., suppose one year later stock A will grow to $48 ( S(1) = 48 ), then [S(1)-S(0)]~N(8, 100). We may assume ds = 8dt+10dz.
 
+### Ito Process
 
+In an Ito process, the drift rate and the variance are **functions** of time: dx=a(x, t)dt + b(x, t)dZ. 
 
+This shall give us the equation for change in stock price, which is known as Geometric Brownian motion:
+
+dS = μ* S* dt + σ* S* dZ, where μ is the expected return rate and σ is the volatility.
+
+## Visualize
+
+Above explaination give us the tool to simulate changes in stock price. 
