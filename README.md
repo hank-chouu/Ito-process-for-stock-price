@@ -37,10 +37,12 @@ In an Ito process, the drift rate and the variance are **functions** of time: dx
 
 This shall give us the equation for change in stock price, which is known as Geometric Brownian motion:
 
-dS = μ* S* dt + σ* S* dZ, where μ is the expected return rate and σ is the volatility.
+dS = μ* S* dt + σ* S* dZ, where S is stock price, μ is the expected return rate and σ is the volatility.
+
+In discrete time, this is equivalent to ΔS=μ* S* Δt + σ* S* ε* (Δt)^0.5, ε~N(0,1)
 
 ## Visualize
 
-Above explaination give us the tool to simulate changes in stock price. 
+Above explaination give us the tool to simulate changes in stock price. By randomly generating ε, we can get the **random walk** of the stock price.
 
 ![img](https://github.com/hank-chouu/Ito-process-for-stock-price/blob/main/Rplot01.png?raw=true)
