@@ -42,3 +42,5 @@ dS = μ* S* dt + σ* S* dZ, where μ is the expected return rate and σ is the v
 ## Visualize
 
 Above explaination give us the tool to simulate changes in stock price. 
+
+![img](https://github.com/hank-chouu/Ito-process-for-stock-price/blob/main/Rplot01.png?raw=true)
