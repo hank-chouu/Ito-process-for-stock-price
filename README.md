@@ -22,7 +22,7 @@ This will give us:
 
 As for a Generalized Wiener process, mean rate and variation rate can be set to any constant, i.e., 
 
-&nbsp;&nbsp;Δx=a* Δt + b* ΔZ = a* Δt + b* ε* (Δt)^0.5, a: drift rate, b: volatility, ε~N(0,1)
+&nbsp;&nbsp;&nbsp;Δx=a* Δt + b* ΔZ = a* Δt + b* ε* (Δt)^0.5, a: drift rate, b: volatility, ε~N(0,1)
 
 This shall give us:
 
@@ -37,7 +37,7 @@ In an Ito process, the drift rate and the variance are **functions** of time: dx
 
 This shall give us the equation for change in stock price, which is known as Geometric Brownian motion:
 
-&nbsp;&nbsp;dS = μ* S* dt + σ* S* dZ, where S is stock price, μ is the expected return rate and σ is the volatility.
+&nbsp;&nbsp;&nbsp;dS = μ* S* dt + σ* S* dZ, where S is stock price, μ is the expected return rate and σ is the volatility.
 
 In discrete time, this is equivalent to ΔS=μ* S* Δt + σ* S* ε* (Δt)^0.5, ε~N(0,1)
 
