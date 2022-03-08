@@ -18,9 +18,9 @@ This will give us:
 1. Mean of [Z(T)-Z(0)]=0 (main trend in change of stock price unchanged)
 2. S.D. of [Z(T)-Z(0)]=1* T(s.d. and variation in change of stock price increase as time increase)
 
-### General Wiener Process
+### Generalized Wiener Process
 
-As for a General Wiener process, mean rate and variation rate can be set to any constant, i.e., 
+As for a Generalized Wiener process, mean rate and variation rate can be set to any constant, i.e., 
 
 Δx=a* Δt + b* ΔZ = a* Δt + b* ε* (Δt)^0.5, a: drift rate, b: volatility, ε~N(0,1)
 
